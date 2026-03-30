@@ -189,8 +189,16 @@
         <div class="puzzle-section">
             <div class="puzzle-title">◆ 今日線索 ◆</div>
             <div class="puzzle-content" id="daily-puzzle">
-               生命的畫布由雙螺旋的絲線編織。在人類體細胞這座華麗的殿堂中，體染色體與性染色體共譜了多少「對」雙人舞？
-            </div>
+      附圖是某日上午8時的地面天氣圖，請根據此圖回答下列問題：<br>
+    (　)(1)圖中所標示之H及L分別表示什麼？
+(A)均表示高氣壓　(B)H表示高氣壓，L表示低氣壓　(C)H表示低氣壓，L表示高氣壓　(D)均表示低氣壓。
+(　)(2)如果圖中之鋒面前進方向不變，預測未來幾天臺灣的天氣狀況可能為何？
+(A)風速增強，降雨機率增加　(B)午後雷陣雨頻繁　(C)高溫炎熱　(D)雲量減少。
+(　)(3)下列何者為該日最合理之日期？
+(A)4月5日　(B)7月7日　(C)9月28日　(D)12月25日。
+<br><br>
+    
+    <img src="day1-chart.jpg" alt="今日圖表" style="max-width: 100%; border: 2px solid var(--gold-dark); border-radius: 4px; box-shadow: 0 0 10px rgba(212, 175, 55, 0.2);">
         </div>
 
         <div class="input-section">
@@ -234,8 +242,8 @@
         // --- 2. 密碼驗證邏輯 ---
         function checkPassword() {
             const input = document.getElementById("password-input").value.trim();
-            // 今日謎題答案設定為 "23" (人類染色體對數)
-            const correctAnswer = "23"; 
+            // 今日謎題答案設定為 "BAD" (三題的答案)
+            const correctAnswer = "BAD"; 
 
             if (input === correctAnswer) {
                 // 答對時的視覺回饋
